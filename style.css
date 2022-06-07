@@ -1,0 +1,117 @@
+.body{
+    font-size: 50px;
+}
+
+.equal{
+    background-color: inherit;
+    border-radius: 100%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 90%;
+    text-align: center;
+    font-family: icon;
+}
+
+.equal:hover {
+    background-color: slategray;
+}
+
+.firstTimer {
+    width: fit-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondTimer {
+    width: fit-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thirdTimer {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plus {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.timeBox{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
+
+.headLabel {
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.equalButtonContainer {
+    display: flex;
+    align-items : center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    width: fit-content;
+}
+
+#answer {
+    font-size: 100px;
+    width: 400px;
+    color: black;
+}
+
+.resetButtonContainer {
+    display: flex;
+    align-items : center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    width: fit-content;
+}
+
+.reset {
+    font-size: 50px;
+    background-color: inherit;
+    border-radius: 50%;
+    border: none;
+}
+
+.reset:hover {
+    background-color: slategray;
+}
+
+.reset:before {
+    padding: 0;
+    display: block;
+    content: '\ea0d';
+    font-family: 'icomoon', sans-serif;
+}

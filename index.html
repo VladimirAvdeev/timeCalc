@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="icomoon/style.css">     
+    
+</head>
+<body class="body">
+    <div class="headLabel">
+        <label class="label">Select a time: </label>
+    </div>
+    
+    <div class="firstTimer">
+        <input id="time1" inputmode="numeric" class="timeBox" type="text" maxlength="2" onclick="javascript: this.value = ''" placeholder="00" /> :
+        <input id="time2" class="timeBox" type="text" maxlength="2" onclick="javascript: this.value = ''" placeholder="00" /> :
+        <input id="time3" class="timeBox" type="text" maxlength="2" onclick="javascript: this.value = ''" placeholder="00" />
+    </div>
+    <div class="plus">+</div>
+    <div class="secondTimer">
+        <input id="time4" class="timeBox"  type="text" maxlength="2" onclick="javascript: this.value = ''" placeholder="00" /> :
+        <input id="time5" class="timeBox"  type="text" maxlength="2" onclick="javascript: this.value = ''" placeholder="00" /> :
+        <input id="time6" class="timeBox"  type="text" maxlength="2" onclick="javascript: this.value = ''" placeholder="00" />
+    </div>
+
+    <div class="equalButtonContainer">
+        <button class="equal" id="equal">=</button>
+    </div>
+    <div class="thirdTimer">
+        <input id="answer" type="text" disabled="true">  
+    </div>
+    <div class="resetButtonContainer">
+        <button class="reset" id="reset"></button>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
